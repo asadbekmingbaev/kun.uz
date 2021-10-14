@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #fff;
+}
+.container{
+    width: 95%;
+    margin: 0 auto;
+}
+.row{
+    margin: 15px 0 15px 15px;
+    padding: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-kun img{
+    width: 75px;
+    height: 30px;
+}
+.head-nav, .neftgaz ul{
+    display: flex;
+    list-style: none;
+}
+.head-nav{
+    margin-left: 15px;
+}
+nav li a{
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16;
+    color: black;
+
+}
+nav li a:hover{
+    color: #2727db;
+}
+
+
+.logo-gaz img{
+    width: 120px;
+    height: 60px;
+    margin-top: -15px;
+
+}
+
+.neftgaz li{
+    padding-left: 10px;
+}
+
+select{
+   width: 115px;
+   height: 25px;
+    border-radius: 30px;
+    border: none;
+    background-color: #E7E7E7
+}
+.menu{
+    width: 95%;
+    height: 50px;
+    background-color: #F1F1F1;
+    display: flex;
+}
+.nav-list ul{
+    display: flex;
+    list-style: none;
+    padding-left: 10px;
+}
+
+.nav-list ul a{
+    text-decoration:none;
+    color: black;
+    padding-left: 10px;
+    border-right: solid 2px black;
+    padding-right: 5px;
+}
+
+.nav-list ul a:hover{
+    color: #17206a;
+}
+.active{
+    width: 90px;
+    height: 30px;
+    background-color: #17206a;
+    text-align: center;
+    color: #fff;
+}
+
+.main{
+    width: 95%;
+    margin-top: 15px;
+     display: flex;
+}
+.col-9{
+    background-color: #EFF2F8;
+    display: flex;
+}
+
+.two{
+    text-decoration: none;
+    color: black;
+    letter-spacing: 2px;
+}
+.two:hover{
+    color: blue;
+}
+.col-3 ul li a{
+    text-decoration: none;
+    color: black;
+    list-style: none;
+}
+.circle{
+    display: flex;
+}
+.col-3{
+    margin-left: 30px;
+}
+
+.col-3 ul{
+  list-style: none;
+}
+h5:hover{
+    color: blue;
+    letter-spacing: 1px;
+}
+.main-two{
+    width: 95%;
+    margin-top: 5px;
+     display: flex;
+}
+
+.second{
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+}
+.left, .right{
+    display: flex;
+}
+
+.right a{
+    text-decoration: none;
+    color: black;
+}
+.left a{
+    text-decoration: none;
+    color: black;
+}
+.left a:hover{
+    color: blue;
+}
+.right a:hover{
+    color: blue;
+}
